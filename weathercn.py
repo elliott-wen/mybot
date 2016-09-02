@@ -29,5 +29,5 @@ class WeatherCN(Plugin):
             return None
 
 
-WeatherCN().gen_message()
-
+# WeatherCN().gen_message()
+#
