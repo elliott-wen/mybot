@@ -14,8 +14,8 @@ class MyWXBot(WXBot):
         self.weathercn = WeatherCN()
         self.newsfeed = NewsFeed()
         self.tasklist = [
-            [self.weathernz, "Victoria", "11", 0],
-            [self.weathercn, "Bitch", "0", 0],
+            [self.weathernz, "Victoria", "20", 0],
+            [self.weathercn, "Bitch", "00", 0],
             [self.newsfeed, "Victoria", "13", 0]
         ]
         self.joke_word = [u'生气', u'哈', u'摸摸', u'哀家', u'小琪子', 'joke','angry',u'生气', u'无聊', 'boring','ha','lol']
@@ -57,6 +57,7 @@ class MyWXBot(WXBot):
 
     def schedule(self):
         for task in self.tasklist:
+            print "Handling Tasks %s %s"%(time.strftime("%H",time.gmtime()), task[2])
             if time.strftime("%H",time.gmtime()) == task[2] and time.time() - task[3] > 7200:
                 print "Starting a cron job for %s"%task[1]
                 result = task[0].gen_message()

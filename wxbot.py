@@ -627,7 +627,7 @@ class WXBot(object):
             except:
                 logging.error('[ERROR] Except in proc_msg')
                 print format_exc()
-            time.sleep(3)
+            time.sleep(1)
 
     # def apply_useradd_requests(self,RecommendInfo):
     #     url = self.base_uri + '/webwxverifyuser?r='+str(int(time.time()))+'&lang=zh_CN'
