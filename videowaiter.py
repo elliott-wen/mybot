@@ -19,3 +19,4 @@ class VideoWaiter(Plugin):
         except:
             traceback.print_exc()
             return None
+

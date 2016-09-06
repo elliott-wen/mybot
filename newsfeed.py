@@ -24,5 +24,3 @@ class NewsFeed(Plugin):
             traceback.print_exc()
             return None
 
-r = NewsFeed().gen_message()
-print r['msg']
