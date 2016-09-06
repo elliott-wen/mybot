@@ -28,6 +28,7 @@ class MyWXBot(WXBot):
 
 
     def handle_msg_all(self, msg):
+        print "Handling a msg with %d"%(msg['msg_type_id'])
         if msg['msg_type_id'] == 9:
             result = self.videowaiter.gen_message()
             if result is None:
