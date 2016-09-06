@@ -13,7 +13,7 @@ class Plugin(object):
         randomString = ''.join(random.choice(chars) for _ in range(size))
         return os.path.join(self.data_path, randomString + "." +postfix)
 
-    def gen_message(self, caller_id = None, message = None):
+    def gen_message(self, parameter = None):
         return None
 
     def quota_check(self):

@@ -9,7 +9,7 @@ import traceback
 
 class Joker(Plugin):
 
-    def gen_message(self, caller_id = None, message = None):
+    def gen_message(self, parameter = None):
         if not self.quota_check():
             return None
         page = random.randint(1,3800)
@@ -34,4 +34,5 @@ class Joker(Plugin):
         except:
             traceback.print_exc()
             return None
+
 

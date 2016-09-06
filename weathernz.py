@@ -4,7 +4,7 @@ import traceback
 from PIL import Image
 
 class WeatherNZ(Plugin):
-    def gen_message(self, caller_id = None, message = None):
+    def gen_message(self, parameter = None):
         try:
             driver = webdriver.PhantomJS() # or add to your PATH
             driver.set_window_size(1024, 768) # optional

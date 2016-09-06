@@ -5,9 +5,9 @@ from plugin import Plugin
 import traceback
 class NewsFeed(Plugin):
 
-    def gen_message(self, caller_id = None, message = None):
+    def gen_message(self, parameter = None):
         try:
-            url = 'http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1'
+            url = 'http://apis.baidu.com/txapi/huabian/newtop?num=15&page=1'
             req = urllib2.Request(url)
             req.add_header("apikey", "77a27415631d269a2be4a40e388f5122")
             resp = urllib2.urlopen(req)
@@ -24,3 +24,5 @@ class NewsFeed(Plugin):
             traceback.print_exc()
             return None
 
+r = NewsFeed().gen_message()
+print r['msg']
