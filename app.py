@@ -29,13 +29,16 @@ class MyWXBot(WXBot):
 
     def handle_msg_all(self, msg):
         print "Handling a msg with %d"%(msg['msg_type_id'])
-        if msg['msg_type_id'] == 9:
-            result = self.videowaiter.gen_message()
-            if result is None:
-                return
-            self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
 
-        elif msg['msg_type_id'] == 4:
+
+        if msg['msg_type_id'] == 4:
+            if msg['content']['type'] == 8 or msg['content']['type'] == 9:
+                result = self.videowaiter.gen_message()
+                if result is None:
+                    return
+                self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
+                return
+
             data = msg['content']['data']
             for word in self.joke_word:
                 if word in data:
