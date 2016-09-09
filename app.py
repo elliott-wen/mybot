@@ -25,7 +25,8 @@ class MyWXBot(WXBot):
         self.weathercn = WeatherCN()
         self.newsfeed = NewsFeed()
         self.cron_tasklist = [
-            [self.weathernz, "Victoria", "11", 0, None],
+            [self.weathernz, "Victoria", "10", 0, None],
+            [self.weathernz, "Victoria", "20", 0, None],
             [self.weathercn, "Bitch", "00", 0, None],
             [self.newsfeed, "Victoria", "00", 0, None],
             [self.newsfeed, "Bitch", "00", 0, None]
