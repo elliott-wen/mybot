@@ -6,71 +6,156 @@ from jokes import Joker
 from weathercn import WeatherCN
 from weathernz import WeatherNZ
 from newsfeed import NewsFeed
-from videowaiter import VideoWaiter
+import ConfigParser
 class MyWXBot(WXBot):
+
+
+    joke_word = [u'生气', u'哈', u'摸摸', u'哀家', u'小琪子', 'Joke','angry',u'生气', u'无聊', 'boring','ha','lol',u'笑话','joke']
+    weather_word = ['weather', u'天气']
+    news_word = [u'新闻','news']
+
+
+
     def __init__(self):
         super(MyWXBot, self).__init__()
+        self.tuling_key = ""
+        self.robot_switch = True
         self.joker = Joker()
         self.weathernz = WeatherNZ()
         self.weathercn = WeatherCN()
-        self.videowaiter = VideoWaiter()
         self.newsfeed = NewsFeed()
         self.cron_tasklist = [
-            [self.weathernz, "Victoria", "20", 0, None],
+            [self.weathernz, "Victoria", "11", 0, None],
             [self.weathercn, "Bitch", "00", 0, None],
             [self.newsfeed, "Victoria", "00", 0, None],
             [self.newsfeed, "Bitch", "00", 0, None]
-
         ]
-        self.joke_word = [u'生气', u'哈', u'摸摸', u'哀家', u'小琪子', 'joke','angry',u'生气', u'无聊', 'boring','ha','lol']
-        self.weather_word = ['weather', u'天气']
-        self.news_word = [u'新闻','news']
+        try:
+            cf = ConfigParser.ConfigParser()
+            cf.read('config.ini')
+            self.tuling_key = cf.get('main', 'key')
+            print "Using the key " + self.tuling_key
+        except Exception:
+            print "Unable to load key!"
+
+    def tuling_auto_reply(self, uid, msg):
+        if not self.tuling_key or not self.robot_switch:
+            return None
+        try:
+            url = "http://www.tuling123.com/openapi/api"
+            user_id = uid.replace('@', '')[:30]
+            body = {'key': self.tuling_key, 'info': msg.encode('utf8'), 'userid': user_id}
+            r = requests.post(url, data=body)
+            respond = json.loads(r.text)
+            result = ''
+            if respond['code'] == 100000:
+                result = respond['text'].replace('<br>', '  ')
+            elif respond['code'] == 200000:
+                result = respond['url']
+            elif respond['code'] == 302000:
+                for k in respond['list']:
+                    result = result + u"【" + k['source'] + u"】 " + k['article'] + "\t" + k['detailurl'] + "\n"
+            else:
+                result = respond['text'].replace('<br>', '  ')
+            return {"msg":result}
+        except:
+            traceback.print_exc()
+            return None
+
+    def auto_switch(self, data, uid):
+        msg_data = data
+        stop_cmd = [u'退下', u'走开', u'关闭', u'关掉', u'休息', u'滚开']
+        start_cmd = [u'出来', u'启动', u'工作']
+        if self.robot_switch:
+            for i in stop_cmd:
+                if i == msg_data:
+                    self.robot_switch = False
+                    self.send_msg_by_uid(u'[Robot]' + u'机器人已关闭！', uid)
+        else:
+            for i in start_cmd:
+                if i == msg_data:
+                    self.robot_switch = True
+                    self.send_msg_by_uid(u'[Robot]' + u'机器人已开启！', uid)
 
 
     def handle_msg_all(self, msg):
-        print "Handling a msg with %d"%(msg['msg_type_id'])
+        # if not self.robot_switch and msg['msg_type_id'] != 1:
+        #     return
 
+        if msg['msg_type_id'] != 1 and msg['msg_type_id'] != 4:
+            #print "Ignore the message whose type is not 1 and 4"
+            return
 
-        if msg['msg_type_id'] == 4:
-            if msg['content']['type'] == 8 or msg['content']['type'] == 9:
-                result = self.videowaiter.gen_message()
+        if msg['content']['type'] != 0:
+            #print "Ignore non-text message"
+            return
+
+        data = msg['content']['data']
+        uid = ''
+        if msg['msg_type_id'] == 1:
+            uid = msg['to_user_id']
+        else:
+            uid = msg['user']['id']
+
+        for word in self.joke_word:
+            if word in data:
+                result = self.joker.gen_message()
                 if result is None:
                     return
-                self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
+                self.send_msg_by_uid(result['msg'], uid)
+                if 'pic' in result:
+                    self.send_img_msg_by_uid(result['pic'], uid)
                 return
 
-            data = msg['content']['data']
-            for word in self.joke_word:
-                if word in data:
-                    result = self.joker.gen_message()
-                    if result is None:
-                        return
-                    self.send_msg_by_uid(result['msg'], msg['user']['id'])
-                    if 'pic' in result:
-                        self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
+        for word in self.weather_word:
+            if word in data:
+                result = self.weathernz.gen_message()
+                if result is None:
                     return
+                self.send_msg_by_uid(result['msg'], uid)
+                if 'pic' in result:
+                    self.send_img_msg_by_uid(result['pic'], uid)
+                return
 
-            for word in self.weather_word:
-                if word in data:
-                    result = self.weathernz.gen_message()
-                    if result is None:
-                        return
-                    self.send_msg_by_uid(result['msg'], msg['user']['id'])
-                    if 'pic' in result:
-                        self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
+        for word in self.news_word:
+            if word in data:
+                result = self.newsfeed.gen_message()
+                if result is None:
                     return
+                self.send_msg_by_uid(result['msg'], uid)
+                return
 
-            for word in self.news_word:
-                if word in data:
-                    result = self.newsfeed.gen_message()
-                    if result is None:
-                        return
-                    self.send_msg_by_uid(result['msg'], msg['user']['id'])
-                    return
+        if msg['msg_type_id'] == 1:  # reply to self
+            #print "Robot Control"
+            self.auto_switch(data, uid)
+        else:
+            print "Passing bot for message handling"
+            bot_result = self.tuling_auto_reply(uid, data)
+            if bot_result is not None:
+                self.send_msg_by_uid(bot_result["msg"], uid)
 
 
 
 
+
+    #
+    # def handle_msg_all(self, msg):
+    #     print "Handling a msg with %d"%(msg['msg_type_id'])
+    #
+    #
+    #     if msg['msg_type_id'] == 4:
+    #         # if msg['content']['type'] == 8 or msg['content']['type'] == 9:
+    #         #     result = self.videowaiter.gen_message()
+    #         #     if result is None:
+    #         #         return
+    #         #     self.send_img_msg_by_uid(result['pic'], msg['user']['id'])
+    #         #     return
+    #
+    #
+    #
+    #
+    #
+    #
     def schedule(self):
         for task in self.cron_tasklist:
             #print "Handling Tasks %s %s"%(time.strftime("%H",time.gmtime()), task[2])
