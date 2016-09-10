@@ -1,5 +1,22 @@
-[INFO  - 2016-09-09T11:05:36.101Z] GhostDriver - Main - running on port 54686
-[INFO  - 2016-09-09T11:05:36.711Z] Session [55fde130-767d-11e6-8c0d-b546d1b1dfe3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2016-09-09T11:05:36.711Z] Session [55fde130-767d-11e6-8c0d-b546d1b1dfe3] - page.customHeaders:  - {}
-[INFO  - 2016-09-09T11:05:36.711Z] Session [55fde130-767d-11e6-8c0d-b546d1b1dfe3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2016-09-09T11:05:36.711Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55fde130-767d-11e6-8c0d-b546d1b1dfe3
+[INFO  - 2016-09-10T00:12:30.875Z] GhostDriver - Main - running on port 57039
+[INFO  - 2016-09-10T00:12:31.492Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-09-10T00:12:31.492Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.customHeaders:  - {}
+[INFO  - 2016-09-10T00:12:31.492Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-09-10T00:12:31.493Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4431b800-76eb-11e6-85cc-89504960c658
+[ERROR - 2016-09-10T00:12:37.060Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.onError - msg: TypeError: Attempting to configurable attribute of unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-09-10T00:12:37.060Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.onError - stack:
+  defineProperty (http://dn-growing.qbox.me/vds.js:2)
+  registerHistoryHandler (http://dn-growing.qbox.me/vds.js:2)
+  domLoadedHandler (http://dn-growing.qbox.me/vds.js:2)
+  (anonymous function) (http://dn-growing.qbox.me/vds.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-09-10T00:12:38.402Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.onError - msg: TypeError: undefined is not an object (evaluating 'jsonstr.itemList[0].partnerappdownstatus')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-09-10T00:12:38.402Z] Session [4431b800-76eb-11e6-85cc-89504960c658] - page.onError - stack:
+  ajaxCallBack (http://m.weathercn.com/js/res.js?version=20160628:111)
+
+  phantomjs://platform/console++.js:263 in error

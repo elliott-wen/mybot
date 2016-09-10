@@ -29,7 +29,6 @@ class MyWXBot(WXBot):
             [self.weathernz, "Victoria", "20", 0, None],
             [self.weathercn, "Bitch", "00", 0, None],
             [self.newsfeed, "Victoria", "00", 0, None],
-            [self.newsfeed, "Bitch", "00", 0, None]
         ]
         try:
             cf = ConfigParser.ConfigParser()
@@ -40,7 +39,7 @@ class MyWXBot(WXBot):
             print "Unable to load key!"
 
     def tuling_auto_reply(self, uid, msg):
-        if not self.tuling_key or not self.robot_switch:
+        if not self.tuling_key:
             return None
         try:
             url = "http://www.tuling123.com/openapi/api"
@@ -58,25 +57,30 @@ class MyWXBot(WXBot):
                     result = result + u"【" + k['source'] + u"】 " + k['article'] + "\t" + k['detailurl'] + "\n"
             else:
                 result = respond['text'].replace('<br>', '  ')
-            return {"msg":result}
+            return {"msg": u"小琪子:"+ result}
         except:
             traceback.print_exc()
             return None
 
     def auto_switch(self, data, uid):
         msg_data = data
-        stop_cmd = [u'退下', u'走开', u'关闭', u'关掉', u'休息', u'滚开']
-        start_cmd = [u'出来', u'启动', u'工作']
+        stop_cmd = [u'芝麻关门']
+        start_cmd = [u'芝麻开门']
         if self.robot_switch:
             for i in stop_cmd:
                 if i == msg_data:
                     self.robot_switch = False
-                    self.send_msg_by_uid(u'[Robot]' + u'机器人已关闭！', uid)
+                    self.send_msg_by_uid(u'[小琪子，喳！]', uid)
+                    return True
         else:
             for i in start_cmd:
                 if i == msg_data:
                     self.robot_switch = True
-                    self.send_msg_by_uid(u'[Robot]' + u'机器人已开启！', uid)
+                    self.send_msg_by_uid(u'[小琪子，喳！]', uid)
+                    return True
+        return False
+
+
 
 
     def handle_msg_all(self, msg):
@@ -97,6 +101,12 @@ class MyWXBot(WXBot):
             uid = msg['to_user_id']
         else:
             uid = msg['user']['id']
+
+        if self.auto_switch(data, uid):
+            return
+
+        if not self.robot_switch:
+            return
 
         for word in self.joke_word:
             if word in data:
@@ -126,10 +136,7 @@ class MyWXBot(WXBot):
                 self.send_msg_by_uid(result['msg'], uid)
                 return
 
-        if msg['msg_type_id'] == 1:  # reply to self
-            #print "Robot Control"
-            self.auto_switch(data, uid)
-        else:
+        if msg['msg_type_id'] == 4:
             print "Passing bot for message handling"
             bot_result = self.tuling_auto_reply(uid, data)
             if bot_result is not None:
