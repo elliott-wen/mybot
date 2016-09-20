@@ -109,6 +109,8 @@ class MyWXBot(WXBot):
         for word in self.barrage_word:
             if data.startswith(word):
                 str = data[len(word):]
+                if str == "":
+                    return
                 result = self.texter.gen_message(str)
                 if result == None:
                     return

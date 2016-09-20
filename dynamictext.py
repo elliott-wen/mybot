@@ -12,7 +12,7 @@ class DynamicText(Plugin):
             if parameter == None:
                 return None
             windows_size = 500
-            windows_forward = 150
+            windows_forward = 100
             strs = "   ".join(parameter)
             FONT_PATH = "font.ttf"
             font = ImageFont.truetype(FONT_PATH, 80)
