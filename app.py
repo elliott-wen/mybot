@@ -6,6 +6,7 @@ from jokes import Joker
 from weathercn import WeatherCN
 from weathernz import WeatherNZ
 from newsfeed import NewsFeed
+from dynamictext import DynamicText
 import ConfigParser
 class MyWXBot(WXBot):
 
@@ -13,17 +14,18 @@ class MyWXBot(WXBot):
     joke_word = [u'生气', u'哈', u'摸摸', u'哀家', u'小琪子', 'Joke','angry',u'生气', u'无聊', 'boring','ha','lol',u'笑话','joke']
     weather_word = ['weather', u'天气']
     news_word = [u'新闻','news']
-
+    barrage_word = [u'弹幕', 'barrage', 'bar', 'Bar']
 
 
     def __init__(self):
         super(MyWXBot, self).__init__()
         self.tuling_key = ""
-        self.robot_switch = True
+        self.robot_switch = False
         self.joker = Joker()
         self.weathernz = WeatherNZ()
         self.weathercn = WeatherCN()
         self.newsfeed = NewsFeed()
+        self.texter = DynamicText()
         self.cron_tasklist = [
             [self.weathernz, "Victoria", "10", 0, None],
             [self.weathernz, "Victoria", "20", 0, None],
@@ -102,6 +104,17 @@ class MyWXBot(WXBot):
         else:
             uid = msg['user']['id']
 
+
+
+        for word in self.barrage_word:
+            if data.startswith(word):
+                str = data[len(word):]
+                result = self.texter.gen_message(str)
+                if result == None:
+                    return
+                if 'pic' in result:
+                    self.send_img_msg_by_uid(result['pic'], uid)
+                return
         if self.auto_switch(data, uid):
             return
 
@@ -135,6 +148,7 @@ class MyWXBot(WXBot):
                     return
                 self.send_msg_by_uid(result['msg'], uid)
                 return
+
 
         if msg['msg_type_id'] == 4:
             print "Passing bot for message handling"

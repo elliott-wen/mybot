@@ -17,6 +17,7 @@ class WeatherCN(Plugin):
             driver.save_screenshot(url) # save a screenshot to disk
             section = driver.find_element_by_css_selector("div.header-info")
             l =  section.location
+
             r = [l['x'], l['y'], 1000, 1300]
             im = Image.open(url)
             region = im.crop(r)
