@@ -12,16 +12,16 @@ class DynamicText(Plugin):
             if parameter == None:
                 return None
             windows_size = 500
-            windows_forward = 100
+            windows_forward = 80
             strs = "   ".join(parameter)
             FONT_PATH = "font.ttf"
             font = ImageFont.truetype(FONT_PATH, 80)
             font_width, font_height = font.getsize(strs)
-            canvas_width = (int)(font_width*2.1)
+            canvas_width = (int)(font_width*3.1)
             canvas_height = font_height*2
             img = Image.new("RGB", (canvas_width, canvas_height), (255, 255, 255)) # 创建图形
             draw = ImageDraw.Draw(img) # 创建画笔
-            draw.text((0, canvas_height/4), strs, font=font, fill=(random.randint(0,230), random.randint(0,230), random.randint(0,230)))
+            draw.text((0, canvas_height/4), canvas_width/3, font=font, fill=(random.randint(0,30), random.randint(0,30), random.randint(0,30)))
             current_pos = 0
             imgs = []
             if windows_size > canvas_width:
