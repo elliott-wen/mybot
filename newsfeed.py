@@ -8,7 +8,7 @@ class NewsFeed(Plugin):
 
     def gen_message(self, parameter = None):
         try:
-            url = 'http://apis.baidu.com/txapi/huabian/newtop?num=10&page=%d'%random.randint(1,50)
+            url = 'http://apis.baidu.com/txapi/huabian/newtop?num=10&page=%d'%random.randint(1,2)
             req = urllib2.Request(url)
             req.add_header("apikey", "77a27415631d269a2be4a40e388f5122")
             resp = urllib2.urlopen(req)
