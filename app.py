@@ -8,6 +8,7 @@ from weathernz import WeatherNZ
 from newsfeed import NewsFeed
 from dynamictext import DynamicText
 import ConfigParser
+import sqlite3
 class MyWXBot(WXBot):
 
 
@@ -20,6 +21,7 @@ class MyWXBot(WXBot):
     def __init__(self):
         super(MyWXBot, self).__init__()
         self.tuling_key = ""
+        self.sqlconn = None
         self.robot_switch = False
         self.joker = Joker()
         self.weathernz = WeatherNZ()
@@ -39,6 +41,11 @@ class MyWXBot(WXBot):
             print "Using the key " + self.tuling_key
         except Exception:
             print "Unable to load key!"
+        try:
+            self.sqlconn = sqlite3.connect("record.db")
+        except Exception:
+            print "Unable to connect database"
+
 
     def tuling_auto_reply(self, uid, msg):
         if not self.tuling_key:
@@ -93,9 +100,12 @@ class MyWXBot(WXBot):
             #print "Ignore the message whose type is not 1 and 4"
             return
 
+
         if msg['content']['type'] != 0:
             #print "Ignore non-text message"
             return
+
+
 
         data = msg['content']['data']
         uid = ''
@@ -103,8 +113,16 @@ class MyWXBot(WXBot):
             uid = msg['to_user_id']
         else:
             uid = msg['user']['id']
+        displayname = msg['user']['name']
 
-
+        if self.sqlconn is not None:
+            try:
+                c = self.sqlconn.cursor()
+                c.execute('''insert into records (username, record_text, record_date) values(?, ?, ? )''', (displayname, data, int(time.time())))
+                self.sqlconn.commit()
+            except:
+                traceback.print_exc()
+                print "Unable to write database"
 
         for word in self.barrage_word:
             if data.startswith(word):
