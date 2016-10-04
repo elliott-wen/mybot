@@ -12,21 +12,16 @@ class Joker(Plugin):
     def gen_message(self, parameter = None):
         if not self.quota_check():
             return None
-        page = random.randint(1,3800)
+
         try:
-            url = 'http://api.1-blog.com/biz/bizserver/xiaohua/list.do?size=5&page=%d'%page
+            url = 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=hilarious'
             req = urllib2.Request(url)
             resp = urllib2.urlopen(req)
             content = resp.read()
             dic_str = json.loads(content)
-            joke_str = ""
-            pic_url = ""
-            for i in range(5):
-                joke_str = u"小琪子:" + dic_str['detail'][i]['content'] + '\n';
-                pic_url = dic_str['detail'][i]['picUrl']
-                if pic_url != '':
-                    break
-            download_url = self.filename_generator("jpg")
+            joke_str = u"笑话攻击"
+            pic_url = dic_str['data']['fixed_height_downsampled_url']
+            download_url = self.filename_generator("gif")
             if pic_url!='':
                 urllib.urlretrieve(pic_url, download_url)
                 pic_url = download_url
@@ -35,4 +30,6 @@ class Joker(Plugin):
             traceback.print_exc()
             return None
 
+
+print Joker().gen_message()
 

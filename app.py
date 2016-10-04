@@ -156,7 +156,7 @@ class MyWXBot(WXBot):
                 result = self.weathernz.gen_message()
                 if result is None:
                     return
-                self.send_msg_by_uid(result['msg'], uid)
+                #self.send_msg_by_uid(result['msg'], uid)
                 if 'pic' in result:
                     self.send_img_msg_by_uid(result['pic'], uid)
                 return
