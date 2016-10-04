@@ -138,8 +138,7 @@ class MyWXBot(WXBot):
         if self.auto_switch(data, uid):
             return
 
-        if not self.robot_switch:
-            return
+
 
         for word in self.joke_word:
             if word in data:
@@ -169,6 +168,8 @@ class MyWXBot(WXBot):
                 self.send_msg_by_uid(result['msg'], uid)
                 return
 
+        if not self.robot_switch:
+            return
 
         if msg['msg_type_id'] == 4:
             print "Passing bot for message handling"

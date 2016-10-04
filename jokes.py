@@ -31,5 +31,4 @@ class Joker(Plugin):
             return None
 
 
-print Joker().gen_message()
 
