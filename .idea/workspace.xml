@@ -56,24 +56,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jokes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jokes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jokes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.61538464">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7794872">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.777779">
+              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
-                <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+                <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/newsfeed.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dynamictext.py" />
-        <option value="$PROJECT_DIR$/jokes.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/jokes.py" />
       </list>
     </option>
   </component>
@@ -742,7 +742,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -812,7 +812,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -906,7 +906,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -982,7 +982,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -1166,22 +1166,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jokes.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-16.777779">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7794872">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625319000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.61538464">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
