@@ -12,7 +12,7 @@ class WeatherNZ(Plugin):
             section = driver.find_element_by_css_selector("#day6to10-disclaimer")
             l =  section.location
 
-            r = [l['x'], l['y'], 650, 1250]
+            r = [(int)(l['x']), int(l['y']), 650, 1250]
             url = self.filename_generator("jpg")
             driver.save_screenshot(url) # save a screenshot to disk
             im = Image.open(url)

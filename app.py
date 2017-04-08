@@ -30,10 +30,9 @@ class MyWXBot(WXBot):
         self.texter = DynamicText()
         self.cron_tasklist = [
             [self.weathernz, "Victoria", "10", 0, None],
-            [self.weathernz, "Victoria", "20", 0, None],
-            [self.weathercn, "Bitch", "00", 0, None],
             [self.newsfeed, "Victoria", "00", 0, None],
         ]
+
         try:
             cf = ConfigParser.ConfigParser()
             cf.read('config.ini')
@@ -41,6 +40,8 @@ class MyWXBot(WXBot):
             print "Using the key " + self.tuling_key
         except Exception:
             print "Unable to load key!"
+
+
         try:
             self.sqlconn = sqlite3.connect("record.db")
         except Exception:
@@ -91,7 +92,7 @@ class MyWXBot(WXBot):
 
 
 
-
+    @override
     def handle_msg_all(self, msg):
         # if not self.robot_switch and msg['msg_type_id'] != 1:
         #     return
@@ -135,6 +136,7 @@ class MyWXBot(WXBot):
                 if 'pic' in result:
                     self.send_img_msg_by_uid(result['pic'], uid)
                 return
+
         if self.auto_switch(data, uid):
             return
 

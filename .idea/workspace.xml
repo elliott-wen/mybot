@@ -12,16 +12,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/wxbot$dynamicfont.coverage" NAME="dynamicfont Coverage Results" MODIFIED="1474879603505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wxbot$newsfeed.coverage" NAME="newsfeed Coverage Results" MODIFIED="1473466109578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wxbot$app.coverage" NAME="app Coverage Results" MODIFIED="1474861367970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxbot$videowaiter.coverage" NAME="videowaiter Coverage Results" MODIFIED="1473158556177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wxbot$jokes.coverage" NAME="jokes Coverage Results" MODIFIED="1475625192448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wxbot$weathercn.coverage" NAME="weathercn Coverage Results" MODIFIED="1472732416125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxbot$newsfeed.coverage" NAME="newsfeed Coverage Results" MODIFIED="1473466109578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxbot$database.coverage" NAME="database Coverage Results" MODIFIED="1474860727581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wxbot$weathernz.coverage" NAME="weathernz Coverage Results" MODIFIED="1472731867547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxbot$app.coverage" NAME="app Coverage Results" MODIFIED="1474861367970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxbot$weathercn.coverage" NAME="weathercn Coverage Results" MODIFIED="1472732416125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxbot$jokes.coverage" NAME="jokes Coverage Results" MODIFIED="1475625192448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxbot$dynamicfont.coverage" NAME="dynamicfont Coverage Results" MODIFIED="1474879603505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,11 +30,11 @@
     <favorites_list name="wxbot" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="newsfeed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newsfeed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="105">
               <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
               <folding>
                 <element signature="e#25#58#0" expanded="true" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="dynamictext.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamictext.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="90">
               <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#24#49#0" expanded="true" />
@@ -56,25 +55,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jokes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jokes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jokes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61538464">
+            <state relative-caret-position="225">
               <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.777779">
-              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+            <state relative-caret-position="390">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
-                <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+                <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weathernz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weathernz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,41 +91,8 @@
       <file leaf-file-name="wxbot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wxbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="383" column="16" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
-              <folding>
-                <element signature="e#6843#7711#0" expanded="false" />
-                <element signature="e#7768#8604#0" expanded="false" />
-                <element signature="e#8651#8701#0" expanded="false" />
-                <element signature="e#8754#8803#0" expanded="false" />
-                <element signature="e#8850#9389#0" expanded="false" />
-                <element signature="e#9456#9731#0" expanded="false" />
-                <element signature="e#9803#10078#0" expanded="false" />
-                <element signature="e#10129#10932#0" expanded="false" />
-                <element signature="e#10973#11098#0" expanded="false" />
-                <element signature="e#11138#11262#0" expanded="false" />
-                <element signature="e#11303#11428#0" expanded="false" />
-                <element signature="e#11473#11693#0" expanded="false" />
-                <element signature="e#11748#12955#0" expanded="false" />
-                <element signature="e#23594#23692#0" expanded="false" />
-                <element signature="e#35473#36331#0" expanded="false" />
-                <element signature="e#36391#37286#0" expanded="false" />
-                <element signature="e#37365#37677#0" expanded="false" />
-                <element signature="e#39625#39812#0" expanded="false" />
-                <element signature="e#48149#48492#0" expanded="false" />
-                <element signature="e#48540#48618#0" expanded="false" />
-                <element signature="e#48662#49044#0" expanded="false" />
-                <element signature="e#49209#49594#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images2gif.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/site-packages/images2gif/images2gif.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+            <state relative-caret-position="628">
+              <caret line="1253" column="11" selection-start-line="1253" selection-start-column="11" selection-end-line="1253" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -125,7 +101,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="45">
               <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
@@ -135,7 +111,7 @@
       <file leaf-file-name="imgs2gif.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imgs2gif.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="3780">
               <caret line="252" column="51" selection-start-line="252" selection-start-column="40" selection-end-line="252" selection-end-column="51" />
               <folding />
             </state>
@@ -145,7 +121,7 @@
       <file leaf-file-name="weathercn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weathercn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="225">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#40#70#0" expanded="true" />
@@ -157,7 +133,7 @@
       <file leaf-file-name="plugin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="120">
               <caret line="11" column="26" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -179,9 +155,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/weather.py" />
-        <option value="$PROJECT_DIR$/wxbot.py" />
         <option value="$PROJECT_DIR$/plugin.py" />
-        <option value="$PROJECT_DIR$/weathernz.py" />
         <option value="$PROJECT_DIR$/data/videocaller.py" />
         <option value="$PROJECT_DIR$/videocaller.py" />
         <option value="$PROJECT_DIR$/cuteanimal.py" />
@@ -197,21 +171,24 @@
         <option value="$PROJECT_DIR$/newsfeed.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dynamictext.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/jokes.py" />
+        <option value="$PROJECT_DIR$/wxbot.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/weathernz.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-1" />
+    <option name="y" value="-28" />
+    <option name="width" value="1922" />
+    <option name="height" value="1109" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -234,9 +211,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,27 +230,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wxbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wxbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wxbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="mybot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,6 +412,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -582,7 +548,9 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -591,33 +559,34 @@
       <changelist id="1761109f-dc42-48c8-bf7e-7ea1493d7641" name="Default" comment="" />
       <created>1472534117427</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1472534117427</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-1" y="-28" width="1922" height="1109" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33472222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2813599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.334375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -651,7 +620,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -661,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -669,39 +638,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/GifImagePlugin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="553" column="4" selection-start-line="553" selection-start-column="4" selection-end-line="553" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/GifImagePlugin.py" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/ImageFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/ImageFont.py" />
     <entry file="file://$PROJECT_DIR$/weathernz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -711,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -721,14 +677,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newsfeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
@@ -738,33 +694,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini" />
     <entry file="file://$PROJECT_DIR$/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -774,14 +724,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weathernz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -791,14 +741,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newsfeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
@@ -808,18 +758,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
@@ -827,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -837,45 +787,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wxbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="629" column="24" selection-start-line="629" selection-start-column="24" selection-end-line="629" selection-end-column="24" />
-          <folding>
-            <element signature="e#6843#7711#0" expanded="false" />
-            <element signature="e#7768#8604#0" expanded="false" />
-            <element signature="e#8651#8701#0" expanded="false" />
-            <element signature="e#8754#8803#0" expanded="false" />
-            <element signature="e#8850#9389#0" expanded="false" />
-            <element signature="e#9456#9731#0" expanded="false" />
-            <element signature="e#9803#10078#0" expanded="false" />
-            <element signature="e#10129#10932#0" expanded="false" />
-            <element signature="e#10973#11098#0" expanded="false" />
-            <element signature="e#11138#11262#0" expanded="false" />
-            <element signature="e#11303#11428#0" expanded="false" />
-            <element signature="e#11473#11693#0" expanded="false" />
-            <element signature="e#11748#12955#0" expanded="false" />
-            <element signature="e#23594#23692#0" expanded="false" />
-            <element signature="e#35473#36331#0" expanded="false" />
-            <element signature="e#36391#37286#0" expanded="false" />
-            <element signature="e#37365#37677#0" expanded="false" />
-            <element signature="e#39625#39812#0" expanded="false" />
-            <element signature="e#48149#48492#0" expanded="false" />
-            <element signature="e#48540#48618#0" expanded="false" />
-            <element signature="e#48662#49044#0" expanded="false" />
-            <element signature="e#49209#49594#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathernz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -885,14 +812,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newsfeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
@@ -902,56 +829,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wxbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="629" column="24" selection-start-line="629" selection-start-column="24" selection-end-line="629" selection-end-column="24" />
-          <folding>
-            <element signature="e#6843#7711#0" expanded="false" />
-            <element signature="e#7768#8604#0" expanded="false" />
-            <element signature="e#8651#8701#0" expanded="false" />
-            <element signature="e#8754#8803#0" expanded="false" />
-            <element signature="e#8850#9389#0" expanded="false" />
-            <element signature="e#9456#9731#0" expanded="false" />
-            <element signature="e#9803#10078#0" expanded="false" />
-            <element signature="e#10129#10932#0" expanded="false" />
-            <element signature="e#10973#11098#0" expanded="false" />
-            <element signature="e#11138#11262#0" expanded="false" />
-            <element signature="e#11303#11428#0" expanded="false" />
-            <element signature="e#11473#11693#0" expanded="false" />
-            <element signature="e#11748#12955#0" expanded="false" />
-            <element signature="e#23594#23692#0" expanded="false" />
-            <element signature="e#35473#36331#0" expanded="false" />
-            <element signature="e#36391#37286#0" expanded="false" />
-            <element signature="e#37365#37677#0" expanded="false" />
-            <element signature="e#39625#39812#0" expanded="false" />
-            <element signature="e#48149#48492#0" expanded="false" />
-            <element signature="e#48540#48618#0" expanded="false" />
-            <element signature="e#48662#49044#0" expanded="false" />
-            <element signature="e#49209#49594#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathernz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -961,14 +865,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newsfeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
@@ -978,56 +882,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
+            <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wxbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="629" column="24" selection-start-line="629" selection-start-column="24" selection-end-line="629" selection-end-column="24" />
-          <folding>
-            <element signature="e#6843#7711#0" expanded="false" />
-            <element signature="e#7768#8604#0" expanded="false" />
-            <element signature="e#8651#8701#0" expanded="false" />
-            <element signature="e#8754#8803#0" expanded="false" />
-            <element signature="e#8850#9389#0" expanded="false" />
-            <element signature="e#9456#9731#0" expanded="false" />
-            <element signature="e#9803#10078#0" expanded="false" />
-            <element signature="e#10129#10932#0" expanded="false" />
-            <element signature="e#10973#11098#0" expanded="false" />
-            <element signature="e#11138#11262#0" expanded="false" />
-            <element signature="e#11303#11428#0" expanded="false" />
-            <element signature="e#11473#11693#0" expanded="false" />
-            <element signature="e#11748#12955#0" expanded="false" />
-            <element signature="e#23594#23692#0" expanded="false" />
-            <element signature="e#35473#36331#0" expanded="false" />
-            <element signature="e#36391#37286#0" expanded="false" />
-            <element signature="e#37365#37677#0" expanded="false" />
-            <element signature="e#39625#39812#0" expanded="false" />
-            <element signature="e#48149#48492#0" expanded="false" />
-            <element signature="e#48540#48618#0" expanded="false" />
-            <element signature="e#48662#49044#0" expanded="false" />
-            <element signature="e#49209#49594#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathernz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -1035,53 +916,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weathernz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/ImageFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/GifImagePlugin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="553" column="4" selection-start-line="553" selection-start-column="4" selection-end-line="553" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/images2gif/images2gif.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py" />
+    <entry file="file://$PROJECT_DIR$/config.ini" />
+    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/ImageFont.py" />
+    <entry file="file:///usr/local/lib/python2.7/site-packages/PIL/GifImagePlugin.py" />
+    <entry file="file:///usr/local/lib/python2.7/site-packages/images2gif/images2gif.py" />
     <entry file="file://$PROJECT_DIR$/weathercn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="225">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
@@ -1089,40 +931,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wxbot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="383" column="16" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
-          <folding>
-            <element signature="e#6843#7711#0" expanded="false" />
-            <element signature="e#7768#8604#0" expanded="false" />
-            <element signature="e#8651#8701#0" expanded="false" />
-            <element signature="e#8754#8803#0" expanded="false" />
-            <element signature="e#8850#9389#0" expanded="false" />
-            <element signature="e#9456#9731#0" expanded="false" />
-            <element signature="e#9803#10078#0" expanded="false" />
-            <element signature="e#10129#10932#0" expanded="false" />
-            <element signature="e#10973#11098#0" expanded="false" />
-            <element signature="e#11138#11262#0" expanded="false" />
-            <element signature="e#11303#11428#0" expanded="false" />
-            <element signature="e#11473#11693#0" expanded="false" />
-            <element signature="e#11748#12955#0" expanded="false" />
-            <element signature="e#23594#23692#0" expanded="false" />
-            <element signature="e#35473#36331#0" expanded="false" />
-            <element signature="e#36391#37286#0" expanded="false" />
-            <element signature="e#37365#37677#0" expanded="false" />
-            <element signature="e#39625#39812#0" expanded="false" />
-            <element signature="e#48149#48492#0" expanded="false" />
-            <element signature="e#48540#48618#0" expanded="false" />
-            <element signature="e#48662#49044#0" expanded="false" />
-            <element signature="e#49209#49594#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newsfeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="105">
           <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
@@ -1132,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="45">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
@@ -1140,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imgs2gif.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="3780">
           <caret line="252" column="51" selection-start-line="252" selection-start-column="40" selection-end-line="252" selection-end-column="51" />
           <folding />
         </state>
@@ -1148,7 +959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamictext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="90">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#24#49#0" expanded="true" />
@@ -1158,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="120">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -1166,22 +977,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/jokes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.777779">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-            <marker date="1475625491000" expanded="true" signature="3834:3907" placeholder="insert into ..." />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jokes.py">
+    <entry file="file://$PROJECT_DIR$/wxbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61538464">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="628">
+          <caret line="1253" column="11" selection-start-line="1253" selection-start-column="11" selection-end-line="1253" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weathernz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+            <marker date="1491619122320" expanded="true" signature="3739:3812" ph="insert into records... " />
+          </folding>
         </state>
       </provider>
     </entry>
