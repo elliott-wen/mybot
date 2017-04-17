@@ -92,7 +92,7 @@ class MyWXBot(WXBot):
 
 
 
-    @override
+
     def handle_msg_all(self, msg):
         # if not self.robot_switch and msg['msg_type_id'] != 1:
         #     return
